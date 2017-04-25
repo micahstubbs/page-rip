@@ -1,5 +1,7 @@
 an [es2015](https://babeljs.io/learn-es2015/) iteration on the block [Pagerip](https://bl.ocks.org/tophtucker/c2631f2e097d4e3f049f636318abbe98) from [@tophtucker](https://twitter.com/tophtucker)
 
+as mentioned in [this tweet](https://twitter.com/micahstubbs/status/856985751875203073)
+
 ---
 
 
