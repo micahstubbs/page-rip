@@ -1,3 +1,8 @@
+an [es2015](https://babeljs.io/learn-es2015/) iteration on the block [Pagerip](https://bl.ocks.org/tophtucker/c2631f2e097d4e3f049f636318abbe98) from [@tophtucker](https://twitter.com/tophtucker)
+
+---
+
+
 Pinch apart to split the viewport in two, so you can do parallel reading. Pinch together to recombine. Only tested on iPhone & iPad; should work on other multitouch devices?; doesn't do anything (or make any sense) on non-touch single-pointer mouse/trackpad devices, whatever we're calling that classic category these days. But you can see it demo'ed in [this tweet](https://twitter.com/tophtucker/status/833379891429175296).
 
 **WHY:**
