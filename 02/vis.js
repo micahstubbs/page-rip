@@ -12,9 +12,10 @@ let divider = 0;
 
 var drag = d3.drag()
   .on('start', start)
-  .on('drag', drag)
+  .on('drag', customDrag)
   .on('end', end);
 
+console.log('drag', drag);
 article.call(drag);
 
 function start() {
@@ -29,7 +30,7 @@ function start() {
   });
 }
 
-function drag() {
+function customDrag() {
   const live = d3.touches(this);
   if (live.length == 2) {
     if (Math.abs(live[0][1] - live[1][1]) > 80) {
