@@ -20,7 +20,7 @@ article.call(drag);
 
 function start() {
   const paneIndex = d3.event.y < divider * window.innerHeight ? 1 : 0;
-  touches = touches.filter(d => d.alive || d.pane != paneIndex);
+  touches = touches.filter(d => d.alive || d.pane !== paneIndex);
   touches.push({
     id: d3.event.identifier,
     y: d3.event.y,
@@ -32,7 +32,7 @@ function start() {
 
 function customDrag() {
   const live = d3.touches(this);
-  if (live.length == 2) {
+  if (live.length === 2) {
     if (Math.abs(live[0][1] - live[1][1]) > 80) {
       if (panes !== 2) {
         panes = 2;
