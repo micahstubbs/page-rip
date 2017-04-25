@@ -7,6 +7,7 @@ let touches = [];
 const pane = [article, clone];
 let panes = 1;
 let divider = 0;
+
 var drag = d3.drag()
   .on('start', start)
   .on('drag', drag)
