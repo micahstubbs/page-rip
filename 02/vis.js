@@ -1,3 +1,5 @@
+/* global d3 */
+
 const container = d3.select('body');
 const article = d3.select('article');
 const clone = d3.select(container.node().appendChild(article.node().cloneNode(true)))
