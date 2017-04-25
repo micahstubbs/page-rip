@@ -15,7 +15,6 @@ const drag = d3.drag()
   .on('drag', customDrag)
   .on('end', end);
 
-console.log('drag', drag);
 article.call(drag);
 
 function start() {
